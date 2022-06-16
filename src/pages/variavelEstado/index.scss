@@ -1,0 +1,144 @@
+
+.page-variavelEstado {
+
+
+  section > div {
+    margin: 1em 0em;
+  }
+
+  input[type=text], select, input[type=number] {
+    width: 100%;
+  }
+
+  .f-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px 0px;
+  }
+  .f-row * {
+    margin:10px
+  }
+  .f-row > label {
+    padding: 12px 25px;
+    border: 1px dashed #DFDFDF;
+  }
+
+
+  .sobremim {
+    display: flex;
+    justify-content: space-between;
+  }
+  .sobremim input[type=number] {
+    width: 7.5em;
+  }
+  .sobremim button {
+    width: 11.1em;
+  }
+
+
+  .ficha {
+    margin-top: 3em;
+  }
+  .ficha-form > div {
+    display: flex;
+    align-items: center;
+    margin: 7px 0px;
+  }
+  .ficha-form > div label {
+    width: 7em;
+    text-align: right;
+  }
+  .ficha-form > div p {
+    color: #BFBFBF;
+    margin-left: 1em;
+  }
+
+  .form * {
+    margin: 0px;
+  }
+  .form > div {
+    display: flex;
+  }
+  .form div:nth-child(1) label {
+    width: 7em !important;
+  }
+  .form label {
+    width: 5em !important;
+  }
+
+
+  ul {
+    margin-top: 1em;
+  }
+  li {
+    margin: .8em 0em;
+  }
+
+
+  .planos input:nth-child(2) {
+    width: 7.8em;
+  }
+
+  .planos-lista {
+    margin-top: 3em;
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 100%;
+  }
+  .plano {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 20px 35px;
+    margin: 30px 20px;
+    height: 12em;
+    width: 12em;
+    box-shadow: 0px 0px 15px 1px rgba(119, 119, 119, 0.25);
+    border-radius: 26px;
+    transition: .3s;
+  }
+  .plano > div:nth-child(1) {
+    width: 57px;
+    height: 52px;
+    border-radius: 25px;
+    background-color: #FFCE37;
+  }
+  .plano > div:nth-child(2) {
+    text-align: center;
+    font-weight: 800;
+  }
+  .plano > div:nth-child(3) > div:nth-child(1) {
+    text-align: center;
+    font-size: .8em;
+    font-weight: bold;
+  }
+  .plano > div:nth-child(3) > div:nth-child(2) {
+    text-align: center;
+    font-size: .75em;
+  }
+  .plano .acoes {
+    position: absolute;
+    top: -1.5em;
+    width: 2.5em;
+    display: flex;
+    justify-content: space-between;
+
+    visibility: hidden;
+  }
+  .plano .acoes img {
+    width: 15px;
+    height: 15px;
+  }
+  .plano:hover {
+    transform: scale(1.05);
+    .acoes {
+      visibility: visible;
+    }
+  }
+
+}

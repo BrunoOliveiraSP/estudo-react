@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+  font-family: 'Inter';
+}
+
+.App-header {
+  color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  background-color: white;
+  padding-top: 5em;
+}
+
+.App-header  > div {
+  margin-top: 3em;
+}
+
+

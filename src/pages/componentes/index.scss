@@ -1,0 +1,37 @@
+
+.page-components {
+
+
+  section > div {
+    margin: 1em 0em;
+  }
+
+  input[type=text], select {
+    width: 20em;
+  }
+
+  .secao {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+  }
+  .secao > div {
+    margin-right: 20px;
+  }
+  .inversa {
+    flex-direction: row-reverse;
+  }
+  .inversa > div {
+    margin-right: 0px;
+    margin-left: 20px;
+  }
+
+  .centro {
+    flex-direction: column;
+  }
+  .centro > div {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+}

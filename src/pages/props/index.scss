@@ -1,0 +1,46 @@
+
+.page-props {
+
+
+  section > div {
+    margin: 1em 0em;
+  }
+
+  input[type=text], select {
+    width: 20em;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+  }
+  .form > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0px;
+  }
+  .form input,textarea {
+    width: 48%;
+  }
+
+  .secao {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+  }
+  .secao > div {
+    margin-right: 20px;
+  }
+  .inversa {
+    flex-direction: row-reverse;
+  }
+  .inversa > div {
+    margin-right: 0px;
+    margin-left: 20px;
+  }
+
+  
+
+}
