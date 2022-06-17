@@ -21,7 +21,7 @@
   }
   .f-row > label {
     padding: 12px 25px;
-    border: 1px dashed #DFDFDF;
+    border: 3px dashed #DFDFDF;
   }
 
 
@@ -30,12 +30,19 @@
     justify-content: space-between;
   }
   .sobremim input[type=number] {
-    width: 7.5em;
+    width: 35%;
   }
   .sobremim button {
     width: 11.1em;
   }
-
+  .sobremim div:nth-child(2) {
+    display: flex;
+    align-items: center;
+  }
+  .sobremim div:nth-child(1) {
+    display: flex;
+    margin: 0px;
+  }
 
   .ficha {
     margin-top: 3em;
@@ -59,6 +66,7 @@
   }
   .form > div {
     display: flex;
+    align-items: center;
   }
   .form div:nth-child(1) label {
     width: 7em !important;

@@ -83,9 +83,14 @@ function Index() {
           </div>
           
           <div className='f-row sobremim'>
-            <input type='number' placeholder='Altura' />
-            <input type='number' placeholder='Peso' />
-            <div><input type='checkbox' /> Trabalha</div>
+            <div>
+              <input type='number' placeholder='Altura' />
+              <input type='number' placeholder='Peso' />
+            </div>
+            <div>
+              <input type='checkbox' />
+              Trabalha
+            </div>
             <button>Visualizar</button>
           </div>
 
