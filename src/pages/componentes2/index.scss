@@ -1,0 +1,46 @@
+
+.page-components2 {
+
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto;
+  }
+
+  section {
+    display: inline-block;
+    margin: 1em;
+  }
+
+  section > div {
+    margin: 1em 0em;
+  }
+
+  input[type=text], select {
+    width: 20em;
+  }
+
+  .nome {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+  } 
+  .nome img {
+    width: 32px;
+    margin-right: 1em;
+  }
+  .nome h2 {
+    margin: 0px;
+  }
+
+  .info > div {
+    display: flex;
+    justify-content: space-between;
+    width: 12em;
+    margin: .5em 0em;
+  }
+  .info > div div:nth-child(1) {
+    font-weight: 700;
+  }
+
+}

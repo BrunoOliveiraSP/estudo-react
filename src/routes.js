@@ -5,6 +5,7 @@ import Api from './pages/api';
 import Props from './pages/props';
 import Eventos from './pages/eventos';
 import Componentes from './pages/componentes';
+import Componentes2 from './pages/componentes2';
 import Renderizacao from './pages/renderizacao';
 import VariavelEstado from './pages/variavelEstado';
 
@@ -17,6 +18,7 @@ function WebsiteRoutes() {
                 <Route path='/' element={<Home />} />
                 <Route path='/eventos' element={<Eventos />} />
                 <Route path='/componentes' element={<Componentes />} />
+                <Route path='/componentes2' element={<Componentes2 />} />
                 <Route path='/props' element={<Props />} />
                 <Route path='/variavelEstado' element={<VariavelEstado />} />
                 <Route path='/renderizacao' element={<Renderizacao />} />
